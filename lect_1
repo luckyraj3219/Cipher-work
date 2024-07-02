@@ -1,0 +1,9 @@
+What is Data Science?
+Data Science involves analyzing and working with different types of data (like text, images, audio, or video) to make predictions about future scenarios and offer useful suggestions through recommendation systems.
+Data Science vs AI vs ML:
+Data Science forms the foundation for both AI and ML. It includes math, statistics, data visualization, and exploratory data analysis.
+AI (Artificial Intelligence) is about creating systems that can make decisions on their own. It's like giving a brain to a computer so it can think for itself. Examples are Amazon Echo and Google Assistant.
+ML (Machine Learning) is a part of AI. It's used to make recommendations based on past data or experiences. For instance, when Netflix suggests movies or Amazon recommends products, that's ML in action.
+AI is the biggest category, which includes ML. ML, in turn, includes Deep Learning. So the relationship goes: AI > ML > Deep Learning.
+Deep Learning uses artificial neurons to solve complex problems.
+Remember: AI is the broadest field, then comes ML, and Deep Learning is a specific type of ML.
