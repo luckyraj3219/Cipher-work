@@ -1,0 +1,37 @@
+### Pivot Table:
+
+- **Summarize Data**: Helps you quickly sum up large amounts of data.
+- **Analyze Data**: Makes it easier to study and understand your data.
+- **Explore and Present Data**: Lets you display data clearly.
+- **Automatic Sorting**: Sorts your data automatically.
+- **Counting Values**: Counts the total number of items.
+- **Total Calculation**: Adds up specific values.
+- **Summary Table**: Shows results in a new, summarized table.
+
+**Operations**:
+- **Summarizing Data**: Perform calculations like sum, average, count, min, etc.
+- **Filtering Data**: Filter data by categories like product or region.
+- **Grouping Data**: Group data by dates (monthly, quarterly), product, or region.
+- **Calculating Percentages**: Calculate the percentage of totals or changes.
+
+### Pivot Chart:
+
+- **Graphical Representation**: Provides a visual representation of data from a pivot table.
+- **Dynamic Visualization**: Allows for interactive data visualization.
+
+**Operations**:
+- **Changing Chart Types**: Choose different chart types like column, bar, line, etc.
+- **Customizing Chart Elements**: Adjust titles, legends, data labels, and colors.
+- **Drilling Down Data**: Explore data points in detail interactively.
+
+### Power Query:
+
+- **Discover, Connect, Combine, Refine**: Helps you find, connect, and refine data from various sources.
+- **Import, Clean, Transform**: Makes it easy to bring in, clean, and transform data before analyzing it in Excel.
+
+**Operations**:
+- **Merging Queries**: Combine data from different tables or sources.
+- **Appending Queries**: Stack data from similar tables together.
+- **Unpivoting Columns**: Transform columns into rows for better analysis.
+- **Creating Calculated Columns**: Add custom calculations and transformations.
+
