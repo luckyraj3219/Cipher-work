@@ -1,0 +1,49 @@
+
+
+Advanced Excel Formulas and Functions:
+
+1. **SUM**: Adds up all the numbers in a range of cells.
+2. **AVERAGE**: Calculates the average value of a range of numbers.
+3. **MAX**: Returns the largest number in a range of values.
+4. **MIN**: Returns the smallest number in a range of values.
+5. **XLOOKUP**: Searches a range or an array and returns an item corresponding to the first match it finds. It can return a value from a single column or multiple columns.
+6. **SUMPRODUCT**: Multiplies corresponding components in the given arrays and returns the sum of those products.
+7. **OFFSET**: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.
+8. **QUERY**: (Primarily used in Google Sheets) Used to run a query on data in a spreadsheet.
+
+### Data Cleaning and Preparation Techniques:
+
+1. **TRIM**: Removes all spaces from text except for single spaces between words.
+2. **PROPER**: Capitalizes the first letter of each word in a text string.
+3. **UPPER**: Converts text to uppercase.
+4. **LOWER**: Converts text to lowercase.
+5. **LEFT**: Returns the first character or characters in a text string based on the number of characters specified.
+6. **MID**: Returns a specific number of characters from a text string, starting at the position specified.
+7. **RIGHT**: Returns the last character or characters in a text string, based on the number of characters specified.
+8. **CONCATENATE**: Joins two or more text strings into one string. (Replaced by `TEXTJOIN` and `&` in newer Excel versions)
+9. **TEXTJOIN**: Combines text from multiple ranges and/or strings, and includes a delimiter you specify between each text value.
+10. **SPLIT**: (Primarily used in Google Sheets) Splits text string into separate pieces based on a delimiter.
+11. **IF**: Returns one value if a condition is true and another value if it’s false.
+12. **IFERROR**: Returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula.
+
+### Time and Date Manipulations:
+
+1. **DATE**: Creates a date from individual year, month, and day components.
+2. **DAY**: Returns the day of the month as a number from 1 to 31.
+3. **EDATE**: Returns the date that is the indicated number of months before or after the start date.
+4. **TODAY**: Returns the current date.
+5. **NOW**: Returns the current date and time.
+6. **WEEKDAY**: Returns a number representing the day of the week.
+7. **HOUR**: Returns the hour of a time value.
+8. **MINUTE**: Returns the minute of a time value.
+
+### Transform Your Data to:
+
+1. **PivotTables**: Summarizes, sorts, reorganizes, groups, counts, totals, or averages data stored in a database.
+2. **PivotCharts**: Graphically represents the data from a PivotTable.
+3. **Power Query**: A data connection technology that enables you to discover, connect, combine, and refine data across a wide variety of sources.
+
+### Excel Automation Basics: Introduction to Macros and VBA:
+
+1. **Introduction to Excel macros**: Macros are a set of actions that you can record and play back to automate repetitive tasks in Excel.
+2. **VBA for automation**: VBA (Visual Basic for Applications) is a programming language for writing macros to automate tasks in Excel and other Microsoft Office applications.
