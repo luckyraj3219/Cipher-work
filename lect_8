@@ -1,0 +1,39 @@
+### How to Write a Formula in Excel
+
+1. **Select the cell**: Click on the cell where you want the formula's result to appear.
+2. **Enter an equals sign**: Type `=` to indicate to Excel that you are starting a formula.
+3. **Enter the formula**: Using the example of multiplying values in the four times table:
+   - In cell E3, type: `=A3*C3`.
+   - Press Enter to calculate the result.
+4. **Apply the formula to other cells**:
+   - Select cell E3.
+   - Drag the fill handle (small square at the bottom right corner of the cell) down to E12.
+   - The formula will automatically adjust and be applied to all the selected cells.
+
+### Functions Covered:
+
+1. **SUM**: Adds all the numbers in a range of cells.
+   - Example: `=SUM(A1:A10)` adds the values in cells A1 through A10.
+
+2. **AVERAGE**: Calculates the average of the numbers in a range.
+   - Example: `=AVERAGE(A1:A10)` finds the average of the values in cells A1 through A10.
+
+3. **MAX**: Returns the largest value in a range.
+   - Example: `=MAX(A1:A10)` gives the highest number in the range A1 to A10.
+
+4. **MIN**: Returns the smallest value in a range.
+   - Example: `=MIN(A1:A10)` gives the lowest number in the range A1 to A10.
+
+5. **XLOOKUP**: Searches a range or array and returns a corresponding value.
+   - Example: `=XLOOKUP(B2, A1:A10, C1:C10)` searches for the value in B2 within the range A1:A10 and returns the corresponding value from C1:C10.
+
+6. **SUMPRODUCT**: Multiplies corresponding elements in the given arrays and returns the sum of those products.
+   - Example: `=SUMPRODUCT(A1:A10, B1:B10)` multiplies each value in A1:A10 by the corresponding value in B1:B10 and then sums the results.
+
+7. **OFFSET**: Returns a reference to a range that is offset from a given starting point.
+   - Example: `=OFFSET(A1, 2, 3)` returns the value that is 2 rows down and 3 columns to the right of cell A1.
+
+8. **QUERY**: Used to run a query on data in a spreadsheet (primarily in Google Sheets).
+   - Example: `=QUERY(A1:D10, "SELECT A, B WHERE C > 10", 1)` retrieves data from the range A1:D10 where the values in column C are greater than 10.
+
+By understanding these functions and how to write basic formulas, you can perform a wide range of calculations and data manipulations in Excel.
