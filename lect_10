@@ -1,0 +1,22 @@
+### Date and Time Functions:
+
+1. **DATE**: Creates a date with the year, month, and day you specify.
+   - **Syntax**: `=DATE(year, month, day)`
+
+2. **DAY**: Returns the day of the month from a given date.
+   - **Syntax**: `=DAY(cell_name)`
+
+3. **EDATE**: Gives the date that is a specific number of months before or after a start date.
+   - **Syntax**: `=EDATE(start_date, number_of_months)`
+
+   **Note**: Excel stores dates as serial numbers. You'll need to format them as dates to see them correctly.
+
+4. **WEEKDAY**: Returns the day of the week for a given date.
+   - **Syntax**: `=WEEKDAY(cell_name)`
+
+5. **HOUR**: Returns the hour portion of a time value.
+   - **Syntax**: `=HOUR(cell_name)`
+
+6. **MINUTE**: Returns the minute portion of a time value.
+   - **Syntax**: `=MINUTE(cell_name)`
+
