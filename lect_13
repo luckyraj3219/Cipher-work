@@ -1,0 +1,70 @@
+**What is Python and why is it used?**
+
+**Python Overview:**
+- **Creator:** Python was created by Guido van Rossum in 1991.
+- **Uses:** Python is used for web development, software development, mathematics, system scripting, and data science.
+
+**Why Choose Python:**
+- Python works on different platforms like Windows, Mac, Linux, and Raspberry Pi.
+- It automatically identifies the types of variables.
+
+**Variables & Data Types in Python:**
+
+**Variables:**
+- A variable is a name given to a memory location in a program.
+
+**Data Types:**
+- **Integer:** Holds numerical values, e.g., 1, 2, -1.
+  - **Functions and Operations:**
+    1. `print(abs(num))` - Absolute value; output: 10.
+    2. `print(bin(num))` - Binary representation; output: 1010.
+    3. `print(hex(num))` - Hexadecimal representation; output: 0xa.
+    4. `print(pow(num, 2))` - Power function; output: 100.
+    5. `print(divmod(num, 3))` - Quotient & remainder; output: (3, 1).
+
+- **Floating Point Number:** Holds decimal values, e.g., 1.1, 24.5.
+  - **Functions and Operations:**
+    1. `print(round(price))` - Rounds to the nearest integer; output: 100.
+  - **Typecasting:**
+    - `print(int(price))` - Converts to integer; output: 99.
+    - `print(float("1234"))` - Converts string to float; output: 1234.0.
+
+- **String:** Holds text values, e.g., `greeting = "hello world!"`.
+  - **Functions and Operations:**
+    1. `print(greeting.lower())` - Converts to lowercase.
+    2. `print(greeting.upper())` - Converts to uppercase.
+    3. `print(greeting.replace("world", "python"))` - Replaces substring.
+    4. `print(greeting.split())` - Splits string into a list.
+    5. `print(greeting.find("world"))` - Finds substring position.
+    6. `print(len(greeting))` - Length of string.
+
+- **List:** Mutable container to store values of any data type, e.g., `fruit = ["apples", "banana", "cherry"]`.
+  - **Functions and Operations:**
+    1. `append` - Adds an element to the end.
+    2. `extend` - Adds multiple elements to the end.
+    3. `remove` - Removes an element.
+    4. `pop` - Removes the last element.
+    5. `sort` - Sorts the list.
+    6. `len` - Length of the list.
+    7. `index` - Finds the index of a value.
+
+- **Tuple:** Immutable container, e.g., `coordinates = (10.0, 20.0)`.
+  - **Functions and Operations:**
+    1. `count` - Counts occurrences of a value.
+    2. `index` - Finds the index of a value.
+    3. `len` - Length of the tuple.
+  - To change a tuple, convert it to a list: `li = list(coordinates)`.
+
+- **Dictionary:** Collection of key-value pairs, e.g., `person = {"name": "Pranav"}`.
+  - **Functions and Operations:**
+    1. `print(person.keys())` - Gets all keys.
+    2. `print(person.values())` - Gets all values.
+    3. `print(person.items())` - Gets all key-value pairs.
+    4. `update` - Updates the dictionary with another dictionary.
+    5. `pop` - Removes a value.
+    6. `len` - Checks the length of the dictionary.
+
+- **Set:** Collection of non-repetitive elements, e.g., `se = {1, 2, 3, 4}`.
+  - **Functions and Operations:**
+    1. `len` - Checks the length.
+    2. `add` - Adds a value.
