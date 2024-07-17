@@ -1,0 +1,48 @@
+### Text Cleaning Functions:
+
+1. **TRIM**: Removes all extra spaces from text, leaving only single spaces between words.
+   - **Syntax**: `=TRIM(cell_name)`
+
+2. **PROPER**: Capitalizes the first letter of each word in a text string.
+   - **Syntax**: `=PROPER(cell_name)`
+
+3. **UPPER**: Converts all letters in the text to uppercase.
+   - **Syntax**: `=UPPER(cell_name)`
+
+4. **LOWER**: Converts all letters in the text to lowercase.
+   - **Syntax**: `=LOWER(cell_name)`
+
+### Text Manipulation Functions:
+
+1. **LEFT**: Returns the first few characters from the left side of a text string.
+   - **Syntax**: `=LEFT(cell_name, number_of_characters)`
+
+2. **MID**: Returns characters from the middle of a text string, starting at a specified position.
+   - **Syntax**: `=MID(cell_name, start_position, number_of_characters)`
+
+3. **SEARCH**: Finds the position of a specific character or substring within a text string.
+   - **Syntax**: `=SEARCH("text_to_find", cell_name)`
+
+4. **LEN**: Gives the number of characters in a text string.
+   - **Syntax**: `=LEN(cell_name)`
+
+5. **RIGHT**: Returns the last few characters from the right side of a text string.
+   - **Syntax**: `=RIGHT(cell_name, number_of_characters)`
+
+### Text Combining Functions:
+
+1. **CONCATENATE**: Joins two or more text strings into one.
+   - **Syntax**: `=CONCATENATE(cell_name1, cell_name2)`
+
+2. **TEXTJOIN**: Combines text from multiple cells, with a specified delimiter between each text string.
+   - **Syntax**: `=TEXTJOIN("delimiter", TRUE, cell_name1, cell_name2)`
+
+### Conditional Logical Functions:
+
+1. **IF**: Checks a condition and returns one value if the condition is true, and another value if the condition is false.
+   - **Syntax**: `=IF(condition, value_if_true, value_if_false)`
+
+2. **IFERROR**: Returns a specified value if a formula results in an error; otherwise, it returns the result of the formula.
+   - **Syntax**: `=IFERROR(value, value_if_error)`
+
+These simplified explanations should help you understand and use these functions more effectively in Excel.
