@@ -1,0 +1,49 @@
+### Introduction to Machine Learning
+
+**What is AI?**
+
+**Definition:** AI (Artificial Intelligence) is when machines are made to perform tasks that typically require human intelligence.  
+**Alternate Definition:** It's the capability of a computer to think and learn like a human.
+
+**Key Terms in AI:**
+- **Learning:** An AI system's ability to improve its performance based on experience.
+- **Reasoning:** The process of making logical conclusions from given information.
+- **Self-Correction:** The ability of an AI system to automatically fix its own mistakes.
+
+**Types of AI:**
+1. **Weak AI (Narrow AI):** AI systems designed and trained for specific tasks.
+2. **Strong AI (General AI):** AI systems with human-like cognitive abilities, capable of performing any intellectual task that a human can.
+
+**What is Machine Learning (ML)?**
+
+**Definition:** Machine Learning is a part of AI that uses statistical methods to help machines improve their performance as they are fed more data.  
+**Analogy:**
+- **Human Learning:** Observations → Learning → Skills
+- **Machine Learning:** Data → Model → Predictions
+
+**Types of Machine Learning:**
+
+1. **Supervised Learning:**
+   - **Description:** Uses labeled data to train the model.
+   - **Process:** Labeled Data & Labels → Machine → ML Model → Predictions → Test Data
+
+2. **Unsupervised Learning:**
+   - **Description:** Uses unlabeled data to identify patterns.
+   - **Process:** Data → Model → Groups/Clusters
+   - **Clustering:** Grouping similar instances based on patterns in the data.
+
+**Examples:**
+1. **Supervised Learning:** Classifying emails as spam or not, identifying cats and dogs in images.
+2. **Unsupervised Learning:** Grouping cats and dogs based on features.
+3. **Both Supervised and Unsupervised:** Recommendation systems, playing strategy games like AlphaGo.
+
+**Evolution of AI, ML, and Deep Learning:**
+- **Artificial Intelligence (1950s-1980s):** Techniques enabling computers to mimic human behavior.
+- **Machine Learning (1980s-2010s):** AI techniques that let computers learn from data without being explicitly programmed.
+- **Deep Learning (2010s onwards):** A subset of ML that allows the computation of multi-layer neural networks.
+
+**What is Data Science?**
+
+**Definition:** Data Science is a field that uses statistical tools and techniques to extract meaningful insights from data.  
+**Sources of Data:** Databases, business transactions, sensors, etc.  
+**Techniques Used:** Data science applies complex machine learning algorithms to build predictive models.
