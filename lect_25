@@ -1,0 +1,74 @@
+### Hypothesis Testing
+
+**Definition:**
+Hypothesis testing is a statistical technique used to make decisions based on sample data. It helps determine if there is enough evidence to support a certain belief about the entire population.
+
+**Steps in Hypothesis Testing:**
+1. **State the Hypotheses:**
+   - **Null Hypothesis (H₀):** This is a statement that there is no effect or difference. It represents the idea of "no change" or "no difference."
+   - **Alternative Hypothesis (H₁ or Ha):** This statement contradicts the null hypothesis and suggests that there is an effect or difference.
+2. **Choose a Significance Level (α):** Commonly set at 0.05, which means there is a 5% risk of rejecting the null hypothesis when it is actually true.
+3. **Collect Data and Compute a Test Statistic:** Use statistical methods appropriate for your data and hypothesis.
+4. **Determine the P-value:** This is the probability of observing results as extreme as those in your sample, assuming the null hypothesis is true.
+5. **Make a Decision:** Compare the P-value with the significance level. If the P-value is less than α, reject the null hypothesis; otherwise, do not reject it.
+
+**Types of Tests:**
+1. **Z-test**
+2. **T-test**
+3. **ANOVA (Analysis of Variance)**
+4. **Chi-square Test**
+
+**Example Scenario:**
+A basketball coach claims his team scores more than 50 points per game on average. We test this claim with scores from 5 randomly selected games.
+
+1. **State the Hypotheses:**
+   - H₀: μ = 50 (The average score is 50 points.)
+   - H₁: μ > 50 (The average score is more than 50 points.)
+2. **Collect Data:** The sample mean score is 51.2.
+3. **Comparison:** Compare 51.2 to the hypothesized mean of 50.
+4. **Make a Decision:** If 51.2 is significantly higher than 50, we reject H₀ in favor of H₁.
+
+In this example, the sample mean of 51.2 suggests the team's average score is indeed higher than 50, supporting the coach's claim.
+
+**Applications:**
+1. **A/B Testing (Marketing and Product Development):**
+   - **Example:** An e-commerce site tests two homepage designs (A and B) to see which leads to higher sales.
+   - **Hypotheses:**
+     - H₀: No difference in sales between the two designs.
+     - H₁: Design B increases sales compared to Design A.
+2. **Medicine and Healthcare:**
+   - **Example:** Testing a new drug to lower blood pressure.
+   - **Hypotheses:**
+     - H₀: The new drug has no effect on blood pressure.
+     - H₁: The new drug affects blood pressure.
+
+### Inferential Statistics
+
+**Key Concepts:**
+1. **Population and Sample:**
+   - **Population:** The entire group you want to learn about.
+   - **Sample:** A smaller group selected from the population to represent it.
+
+**Estimation:**
+- **Point Estimation:** Uses sample data to estimate a population parameter (e.g., mean or proportion).
+- **Interval Estimation (Confidence Intervals):** Provides a range where the parameter likely falls, with a certain confidence level (e.g., 95% or 99%).
+
+**Common Point Estimators:**
+- **Sample Mean (x̄):** Estimates the Population Mean (μ).
+- **Sample Proportion (p̂):** Estimates the Population Proportion (P).
+- **Sample Variance (s²):** Estimates the Population Variance (σ²).
+
+**Example:**
+If you have test scores from a sample of students and calculate the average score, that average (sample mean) estimates the average score for the entire class.
+
+**Components of Confidence Intervals:**
+- **Confidence Level:** Usually a percentage (e.g., 95% or 99%) indicating the probability that the confidence interval includes the true population parameter.
+- **Margin of Error:** The range above and below the point estimate within which the true parameter is expected to fall.
+
+**Formula for Confidence Interval for a Population Mean:**
+\[ \text{CI} = \bar{x} \pm \left( z \cdot \frac{s}{\sqrt{n}} \right) \]
+where:
+- \(\bar{x}\) is the sample mean.
+- \(z\) is the z-score for the desired confidence level (e.g., 1.96 for 95% confidence).
+- \(s\) is the sample standard deviation.
+- \(n\) is the sample size.
